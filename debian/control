@@ -4,7 +4,7 @@ Priority: optional
 Maintainer: Patrick Matthäi <pmatthaei@debian.org>
 Uploaders: Matthias Albert <matthias@ma-c.de>,
  Louis Zuckerman <me@louiszuckerman.com>
-Build-Depends: cdbs (>= 0.4.90~),
+Build-Depends: cdbs (>= 0.4.89~),
  debhelper (>= 7),
  autotools-dev,
  bison,
