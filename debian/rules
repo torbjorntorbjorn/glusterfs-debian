@@ -4,7 +4,11 @@ export DEB_BUILD_HARDENING=1
 
 include /usr/share/cdbs/1/rules/debhelper.mk
 include /usr/share/cdbs/1/class/autotools.mk
-include /usr/share/cdbs/1/class/python-module.mk
+
+# From gsyncdaemon README.md:
+# "As of now, the supported way of operation is running from the source directory."
+# Given this constraint, AFAIK we don't need python-module.mk
+#include /usr/share/cdbs/1/class/python-module.mk
 
 install/glusterfs-common::
 	for f in debian/tmp/usr/lib/glusterfs/*/xlator/debug/trace.so; do \
