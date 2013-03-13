@@ -1,4 +1,10 @@
-glusterfs (3.3.0-1) UNRELEASED; urgency=low
+glusterfs (3.3.1-1) unstable; urgency=low
+
+  * New upstream release.
+
+ -- Torbjørn Thorsen <torbjorn@trollweb.no>  Wed, 13 Mar 2013 17:06:43 +0100
+
+glusterfs (3.3.0-1) unstable; urgency=low
 
   * New upstream release.
     - Added dependencies libssl-dev (build) and libssl1.0.0 (glusterfs-common)
